@@ -27,7 +27,7 @@ try:
     )
     TELEGRAPH_API = config("TELEGRAPH_API", default="https://api.telegra.ph")
     THUMB = config(
-        "THUMBNAIL", default="https://graph.org/file/75ee20ec8d8c8bba84f02.jpg"
+        "THUMBNAIL", default="https://graph.org/file/ca503e890a0426cdd342b.jpg"
     )
 except Exception as e:
     print("Environment vars Missing")
