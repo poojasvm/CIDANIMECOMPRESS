@@ -16,8 +16,8 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", default=6, cast=int"5009612")
-    API_HASH = config("API_HASH", default="999bf38a58a1332ed01591f0624b5768")
+    APP_ID = config("APP_ID", "5009612")
+    API_HASH = config("API_HASH", "999bf38a58a1332ed01591f0624b5768")
     BOT_TOKEN = config("BOT_TOKEN", "6820828774:AAEstbEZHIub8P51UqUIUQGKNoz5w-1WEf4")
     DEV = 1322549723
     OWNER = config("OWNER", "943270135")
