@@ -25,12 +25,12 @@
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
-            "value": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
+            "value": "https://graph.org/file/5bb813d0ac18949016b2b.jpg",
             "required": false
         },
         "FFMPEG": {
             "description": "Put your FFMPEG code.",
-            "value": "ffmpeg -i '''{}''' -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? '''{}''' -y",
+            "value": "ffmpeg -i '''{}''' -preset fast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? '''{}''' -y",
             "required": false
     },
     "PROTECT_CONTENT": {
