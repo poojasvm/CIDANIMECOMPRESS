@@ -1,8 +1,8 @@
-## Queue Compressor Bot (For Single Users)
+## Deploy On
 
-### Fork Repo Then click on below button of ur fork repo.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](heroku.com/deploy?template=https://github.com/2204852/CIDANIMECOMPRESS)
+`Heroku`
 
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/2204852/CIDANIMECOMPRESS)
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
 
