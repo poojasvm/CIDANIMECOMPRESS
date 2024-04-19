@@ -30,7 +30,7 @@
         },
         "FFMPEG": {
             "description": "Put your FFMPEG code.",
-            "value": "ffmpeg -i '''{}''' -preset faster -c:v libx265 -crf 26 -x265-params "cpuid=1111039:frame-threads=3:numa-pools=12:wpp:log-level=2:input-csp=1:input-res=1920x1080:high-tier=1:ref=4:annexb:info:hash=0:open-gop:min-keyint=24:keyint=240:bframes=4:b-adapt=2:b-pyramid:rc-lookahead=30:lookahead-slices=4:scenecut=40:no-splice:ctu=64:min-cu-size=8:rect:max-tu-size=32:tu-inter-depth=4:tu-intra-depth=4:me=3:subme=3:merange=57:temporal-mvp:weightp:deblock=0:0:sao:rd=4:rskip:psy-rd=0.40:psy-rdoq=1.00:cbqpoffs=0:crqpoffs=0:rc=crf:qcomp=0.60:qpstep=4:ipratio=1.40:pbratio=1.25:aq-mode=3:aq-strength=0.65:cutree:scenecut-bias=0.05:analysis-reuse-level=5:copy-pic=1:max-ausize-factor=1.0" -metadata 'title=Encoded By @THECIDANIME' -metadata:s:v title="@THECIDANIME" -metadata:s:a title="@THECIDANIME" -metadata:s:s title="@THECIDANIME" -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? -threads 16 '''{}''' -y",
+            "value": "",
             "required": false
     },
     "PROTECT_CONTENT": {
