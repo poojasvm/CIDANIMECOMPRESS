@@ -58,10 +58,10 @@ async def start(event):
     await event.reply(
         f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
         buttons=[
-            [Button.inline("HELP", data="ihelp")],
+            [Button.inline("ʜᴇʟᴘ 🥺️", data="ihelp")],
             [
-                Button.url("Owner", url="https://t.me/THECIDKAGENOUBOT"),
-                Button.url("DEVELOPER", url="https://t.me/THECIDKAGENOUBOT"),
+                Button.url("ᴏᴡɴᴇʀ ♔", url="t.me/THECIDKAGENOUBOT"),
+                Button.url("ᴅᴇᴠʟᴏᴘᴇʀ ♕", url="t.me/THECIDKAGENOUBOT"),
             ],
         ],
     )
@@ -84,10 +84,10 @@ async def beck(event):
     await event.edit(
         f"Hi `{event.sender.first_name}`\nThis is A CompressorQueue Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
         buttons=[
-            [Button.inline("HELP", data="ihelp")],
+            [Button.inline("ʜᴇʟᴘ 🥺️", data="ihelp")],
             [
-                Button.url("Owner", url="https://t.me/THECIDKAGENOUBOT"),
-                Button.url("DEVELOPER", url="https://t.me/THECIDKAGENOUBOT"),
+                Button.url("ᴏᴡɴᴇʀ ♔", url="t.me/THECIDKAGENOUBOT"),
+                Button.url("ᴅᴇᴠʟᴏᴘᴇʀ ♕", url="t.me/THECIDKAGENOUBOT"),
             ],
         ],
     )
