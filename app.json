@@ -1,0 +1,53 @@
+{
+    "name": "CIDANIMECOMPRESS",
+    "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
+    "logo": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
+    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
+    "repository": "https://github.com/2204852/CIDANIMECOMPRESS",
+    "success_url": "https://t.me/BotzHub",
+    "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather, and enter it's api token here.",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "Get ur Id Of Telegram nd Paste Here.",
+            "value": ""
+        },
+        "THUMBNAIL": {
+            "description": "Put Link of any picture.",
+            "value": "https://graph.org/file/5bb813d0ac18949016b2b.jpg",
+            "required": false
+        },
+        "FFMPEG": {
+            "description": "Put your FFMPEG code.",
+            "value": "",
+            "required": false
+    },
+    "PROTECT_CONTENT": {
+      "description": "Protect contents from getting forwarded",
+      "value": "False",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
