@@ -2,7 +2,7 @@
 
 `Heroku`
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/2204852/CIDANIMECOMPRESS)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2F2204852%2FCIDANIMECOMPRESS)
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
 
