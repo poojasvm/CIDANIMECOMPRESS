@@ -1,6 +1,10 @@
 #### Deploy on HEROKU
 [![Deploy on HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2F2204852%2FCIDANIMECOMPRESS)
 
+#### Deploy on Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/P2jqdk)
+
+
 
 ### Variables
 `APP_ID` `API_HASH` `BOT_TOKEN`
