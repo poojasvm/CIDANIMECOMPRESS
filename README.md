@@ -15,4 +15,18 @@
 
 `FFMPEG` : Put Your FFMPEG Code with "{}" as input and output. (Eg. `ffmpeg -i '{}' -preset veryfast -c:v libx264 -crf 26 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? '{}' -y`)
 
-- [Main Source](https://github.com/1Danish-00/CompressorBot)
+###updated
+
+now you can use full ffmpeg 
+
+### local and vps Deployment:
+With Docker:
+
+Install Docker
+Clone repository to your preferred location
+Run:
+docker build . -t enc
+docker run enc
+
+
+⚠️ haven't tested by me so try it if you want 
