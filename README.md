@@ -25,8 +25,10 @@ With Docker:
 Install Docker
 Clone repository to your preferred location
 Run:
-docker build . -t enc
-docker run enc
+
+`docker build . -t enc`
+
+`docker run enc`
 
 
 ⚠️ haven't tested by me so try it if you want 
