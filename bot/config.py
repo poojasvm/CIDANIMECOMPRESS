@@ -23,7 +23,7 @@ try:
     OWNER = config("OWNER", "943270135 5422223708")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -preset faster -c:v libx265 -crf 30 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
+        default='ffmpeg -i "{}" -preset faster -c:v libx265 -crf 20 -tune animation -pix_fmt yuv420p10le -threads 16 -metadata 'title=Encoded By @THECIDANIME' -metadata:s:v 'title=@THECIDANIME' -metadata:s:a 'title=@THECIDANIME' -metadata:s:s 'title=@THECIDANIME' -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
     )
     TELEGRAPH_API = config("TELEGRAPH_API", default="https://api.telegra.ph")
     THUMB = config(
